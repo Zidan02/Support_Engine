@@ -7,8 +7,8 @@ import ContactForm from "./components/ContactForm";
 export default function Home() {
   return (
     <>
-      {/* <Hero />
-      <Features />
+      <Hero />
+      {/* <Features />
       <Departments />
       <Pricing />
       <ContactForm /> */}
