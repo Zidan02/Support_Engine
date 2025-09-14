@@ -20,7 +20,7 @@ export default function Tabs({ active, setActive, tabs }: TabsProps) {
           onClick={() => setActive(tab.id)}
           onMouseEnter={() => setHovered(tab.id)}
           onMouseLeave={() => setHovered(null)}
-          className={`relative px-4 py-2 rounded-full text-sm transition z-10 ${
+          className={`relative px-4 py-2 rounded-full bg-slate-200 text-sm transition z-10 ${
             active === tab.id ? "text-blue-600" : "text-gray-600"
           }`}
         >
@@ -39,7 +39,7 @@ export default function Tabs({ active, setActive, tabs }: TabsProps) {
 
           {/* Active Background (persistent) */}
           {active === tab.id && (
-            <span className="absolute inset-0 bg-blue-200 border border-blue-600 rounded-full z-0" />
+            <span className="absolute inset-0 bg-blue-100 border border-blue-600 rounded-full z-0" />
           )}
 
           {/* Text */}
