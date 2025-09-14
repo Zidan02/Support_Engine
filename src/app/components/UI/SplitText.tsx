@@ -102,10 +102,12 @@ const SplitText: React.FC<SplitTextProps> = ({
               duration,
               ease,
               stagger: delay / 1000,
+               repeat: -1, // This will make the animation loop infinitely
+              repeatDelay: 1, // Add a 1-second delay between each loop
               scrollTrigger: {
                 trigger: el,
                 start,
-                once: true,
+                once: false,
                 fastScrollEnd: true,
                 anticipatePin: 0.4
               },

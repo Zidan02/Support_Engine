@@ -1,7 +1,7 @@
 'use client';
 import { FC } from "react";
 import Link from "next/link";
-import SplitText from "./SplitText";
+import SplitText from "./UI/SplitText";
 
 const Hero: FC = () => {
   return (
