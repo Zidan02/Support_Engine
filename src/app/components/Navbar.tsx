@@ -24,12 +24,12 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-6 ml-3">
-          <Link href="#why" className="hover:text-indigo-600">Why SupportEngine</Link>
-          <Link href="#support" className="hover:text-indigo-600">Support</Link>
-          <Link href="#features" className="hover:text-indigo-600">Features</Link>
-          <Link href="#industries" className="hover:text-indigo-600">Industries</Link>
-          <Link href="#partners" className="hover:text-indigo-600">Partners</Link>
-          <Link href="#company" className="hover:text-indigo-600">Company</Link>
+          <Link href="#why" className="hover:text-blue-600">Why SupportEngine</Link>
+          <Link href="#support" className="hover:text-blue-600">Support</Link>
+          <Link href="#features" className="hover:text-blue-600">Features</Link>
+          <Link href="#industries" className="hover:text-blue-600">Industries</Link>
+          <Link href="#partners" className="hover:text-blue-600">Partners</Link>
+          <Link href="#company" className="hover:text-blue-600">Company</Link>
         </div>
 
         {/* Actions (always visible) */}
@@ -73,12 +73,12 @@ export default function Navbar() {
       {/* Mobile Dropdown */}
       {isOpen && (
         <div className="md:hidden bg-white shadow-lg px-6 py-4 space-y-4">
-          <Link href="#why" className="block hover:text-indigo-600">Why SupportEngine</Link>
-          <Link href="#support" className="block hover:text-indigo-600">Support</Link>
-          <Link href="#features" className="block hover:text-indigo-600">Features</Link>
-          <Link href="#industries" className="block hover:text-indigo-600">Industries</Link>
-          <Link href="#partners" className="block hover:text-indigo-600">Partners</Link>
-          <Link href="#company" className="block hover:text-indigo-600">Company</Link>
+          <Link href="#why" className="block hover:text-blue-600">Why SupportEngine</Link>
+          <Link href="#support" className="block hover:text-blue-600">Support</Link>
+          <Link href="#features" className="block hover:text-blue-600">Features</Link>
+          <Link href="#industries" className="block hover:text-blue-600">Industries</Link>
+          <Link href="#partners" className="block hover:text-blue-600">Partners</Link>
+          <Link href="#company" className="block hover:text-blue-600">Company</Link>
 
           {/* Social Icons on Mobile */}
           <div className="flex gap-4 mt-4">

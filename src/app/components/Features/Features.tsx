@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { featureTabs } from "./data";
+import { featureTabs } from "./featuresData";
 import Tabs from "./Tabs";
 import TabContent from "./TabContent";
 
@@ -15,7 +15,11 @@ export default function Features() {
       <div className="max-w-6xl mx-auto px-6">
         <Tabs active={activeTab} setActive={setActiveTab} tabs={featureTabs} />
         {activeData && (
-          <TabContent content={activeData.content} image={activeData.image} />
+          <TabContent
+            title={activeData.title} // 👈 pass title here
+            content={activeData.content}
+            image={activeData.image}
+          />
         )}
       </div>
     </section>
