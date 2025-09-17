@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+
+/* Shared section container */
+.section-container {
+  @apply container mx-auto px-5 max-w-6xl;
+}
+
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;

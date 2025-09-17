@@ -12,7 +12,7 @@ export default function Features() {
 
   return (
     <section id="features" className="py-16 bg-white">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="section-container">
         <Tabs active={activeTab} setActive={setActiveTab} tabs={featureTabs} />
         {activeData && (
           <TabContent

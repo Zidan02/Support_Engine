@@ -1,8 +1,8 @@
-import { Shield, Clock, CheckCircle, Ticket } from "lucide-react";
+import { Shield, Clock, CheckCircle, Ticket, Combine, SearchCheck } from "lucide-react";
 
 export const features = [
   {
-    icon: Shield,
+    icon: Combine,
     title: "Integrated Platform",
     points: [
       "View agreements and SLAs",
@@ -21,7 +21,7 @@ export const features = [
     ],
   },
   {
-    icon: CheckCircle,
+    icon: SearchCheck,
     title: "Diagnosis and Respond",
     points: [
       "When past incidents help teams isolate root cause quickly, they’re freed up for key priorities faster, too.",

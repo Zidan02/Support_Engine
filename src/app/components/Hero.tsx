@@ -5,10 +5,11 @@ import SplitText from "./UI/SplitText";
 
 const Hero: FC = () => {
   return (
-    // <section className="bg-gradient-to-r from-indigo-600 to-blue-500 text-white py-20 px-6 text-center">
-    <section className="bg-white text-slate-600 py-20 px-6 text-center">
+    <section className="bg-gradient-to-r from-indigo-600 to-blue-500 text-white py-20 px-6 text-center">
+    {/* // <section className="bg-white text-slate-600 py-20 px-6 text-center"> */}
       
-      <SplitText
+      <div className="section-container">
+        <SplitText
         text="Empower high-performance teams with AI-driven service management"
         className="text-4xl sm:text-5xl md:text-6xl font-semibold text-center"
         delay={100}
@@ -26,6 +27,7 @@ const Hero: FC = () => {
         Businesses are launching and managing digital services faster than ever.
         Speed and efficiency matter.
       </p>
+      </div>
 
     </section>
   );
