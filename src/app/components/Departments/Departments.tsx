@@ -9,7 +9,7 @@ export default function Departments() {
         <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-600 mb-4">
           Comprehensive Support for Every Department
         </h2>
-        <p className="text-gray-600 text-center max-w-3xl mx-auto mb-12">
+        <p className="text-gray-600 text-center max-w-5xl mx-auto mb-12">
           SupportEngine offers specialized templates tailored to various business functions,
           ensuring seamless request handling, workflow automation, and efficient collaboration
           across departments. From IT and HR to Sales and Finance, our system streamlines

@@ -34,10 +34,10 @@ export default function TabContent({ title, content, image }: TabContentProps) {
           {/* Action Buttons */}
           {content.length > 0 && (
             <div className="mt-6 flex gap-4">
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-xl font-semibold hover:bg-blue-700">
+              <button className="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700">
                 Try now
               </button>
-              <button className="border border-blue-600 text-blue-600 px-6 py-2 rounded-xl font-semibold hover:bg-blue-100">
+              <button className="border border-blue-600 text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-blue-100">
                 Join a demo
               </button>
             </div>
