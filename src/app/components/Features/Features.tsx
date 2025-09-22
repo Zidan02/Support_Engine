@@ -11,7 +11,7 @@ export default function Features() {
   const activeData = featureTabs.find((t) => t.id === activeTab);
 
   return (
-    <section id="features" className="py-16 bg-white">
+    <section id="Features" className="py-16 bg-white">
       <div className="section-container">
         <Tabs active={activeTab} setActive={setActiveTab} tabs={featureTabs} />
         {activeData && (

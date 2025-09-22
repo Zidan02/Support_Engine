@@ -4,8 +4,11 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { highlights } from "./caseStudyData";
 import HighlightCard from "./HighlightCard";
+import Link from "next/link";
 
 export default function CaseStudy() {
+const MotionLink = motion(Link);
+
   return (
     <section className="py-20 bg-white">
       <div className="section-container grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -74,15 +77,16 @@ export default function CaseStudy() {
     </p>
 
     {/* CTA Button */}
-    <motion.button
+    <MotionLink
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+      href="#PricingPlans"
       className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition"
     >
       Discover Plans
-    </motion.button>
+    </MotionLink>
   </motion.div>
 
   {/* Right: Pricing Image */}

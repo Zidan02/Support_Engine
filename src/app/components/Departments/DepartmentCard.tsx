@@ -10,7 +10,7 @@ interface DepartmentCardProps {
   direction: "left" | "right";
 }
 
-export default function DepartmentCard({ icon, title, desc, link, direction }: DepartmentCardProps) {
+export default function DepartmentCard({ icon, title, desc, direction }: DepartmentCardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, x: direction === "left" ? -100 : 100 }}
@@ -24,7 +24,7 @@ export default function DepartmentCard({ icon, title, desc, link, direction }: D
         <h3 className="font-bold text-blue-600">{title}</h3>
       </div>
       <p className="text-gray-700 mb-4">{desc}</p>
-      <a href={link} className="text-blue-600 text-sm font-semibold hover:underline">
+      <a href="#ContactUs" className="text-blue-600 text-sm font-semibold hover:underline">
         Get Support →
       </a>
     </motion.div>

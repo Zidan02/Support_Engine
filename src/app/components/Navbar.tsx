@@ -16,8 +16,8 @@ export default function Navbar() {
           <Image
             src="/support-engine-logo-final.png"
             alt="SupportEngine Logo"
-            width={160}
-            height={50}
+            width={180}
+            height={100}
             priority
           />
         </Link>

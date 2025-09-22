@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface TabContentProps {
   title: string; // 👈 add title
@@ -10,7 +11,7 @@ export default function TabContent({ title, content, image }: TabContentProps) {
   return (
     <div className="bg-white p-8 rounded-xl shadow-lg">
       {/* Tab Title */}
-      <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8 text-center md:text-left">
+      <h2 className="text-2xl md:text-2xl font-bold text-gray-800 mb-8 text-center md:text-left">
         {title}
       </h2>
 
@@ -34,12 +35,12 @@ export default function TabContent({ title, content, image }: TabContentProps) {
           {/* Action Buttons */}
           {content.length > 0 && (
             <div className="mt-6 flex gap-4">
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700">
+              <Link href="#ContactUs" className="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700">
                 Try now
-              </button>
-              <button className="border border-blue-600 text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-blue-100">
+              </Link>
+              <Link href="#ContactUs" className="border border-blue-600 text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-blue-100">
                 Join a demo
-              </button>
+              </Link>
             </div>
           )}
         </div>

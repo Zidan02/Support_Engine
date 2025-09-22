@@ -3,10 +3,10 @@ import DepartmentCard from "./DepartmentCard";
 
 export default function Departments() {
   return (
-    <section className="py-20 bg-white">
+    <section id="Departments" className="py-20 bg-white">
       <div className="section-container">
         {/* Title + Description */}
-        <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-600 mb-4">
+        <h2 className="customTitle mb-4">
           Comprehensive Support for Every Department
         </h2>
         <p className="text-gray-600 text-center max-w-5xl mx-auto mb-12">
