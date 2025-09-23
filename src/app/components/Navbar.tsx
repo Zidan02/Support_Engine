@@ -24,12 +24,12 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-6 ml-3">
-          <Link href="#why" className="hover:text-blue-600">Why SupportEngine</Link>
-          <Link href="#support" className="hover:text-blue-600">Support</Link>
+          <Link href="#WhyChooseUs" className="hover:text-blue-600">Why SupportEngine</Link>
+          <Link href="#Departments" className="hover:text-blue-600">Support</Link>
           <Link href="#features" className="hover:text-blue-600">Features</Link>
-          <Link href="#industries" className="hover:text-blue-600">Industries</Link>
-          <Link href="#partners" className="hover:text-blue-600">Partners</Link>
-          <Link href="#company" className="hover:text-blue-600">Company</Link>
+          <Link href="#IndustryExpertise" className="hover:text-blue-600">Industries</Link>
+          <Link href="#Partners" className="hover:text-blue-600">Partners</Link>
+          <Link href="#AboutIntro" className="hover:text-blue-600">Company</Link>
         </div>
 
         {/* Actions (always visible) */}
